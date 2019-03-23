@@ -18,7 +18,7 @@ name: 'app',
 }
 </script>
 
-<style>
+<style lang='scss'>
 #app {
 
 }

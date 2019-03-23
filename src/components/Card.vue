@@ -13,8 +13,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang='scss' scoped>
 h5 {
     color: red;
+
+    &:hover {
+        color: blue;
+    }
+
 }
 </style>
