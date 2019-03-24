@@ -1,3 +1,3 @@
 export default {
-    APP_MULTIPLY_ACTION : 'appMultiplyAction'
+    APP_MULTIPLY : '[app] 🚀 multiply'
 }

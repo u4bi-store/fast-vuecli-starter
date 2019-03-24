@@ -1,3 +1,3 @@
 export default {
-    APP_Multiply_MUTATION : 'appMultiplyMutation'
+    APP_MULTIPLY : '[app] ⚓️ multiply'
 }

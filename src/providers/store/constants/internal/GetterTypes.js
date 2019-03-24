@@ -1,3 +1,3 @@
 export default {
-    APP_TICK_GETTER : 'appTickGetter'
+    APP_GET_TICK : '[app] 🎁 getTick'
 }
