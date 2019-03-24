@@ -3,10 +3,10 @@
         <Card title="A title" />
 
         <h5>mapState - tick : {{ tick }}</h5>
-        <h5>mapGetters - appTickGetter : {{ appTickGetter }}</h5>
+        <h5>mapGetters - getTick : {{ getTick }}</h5>
 
-        <button @click="appMultiplyMutation(tick)">appMultiplyMutation</button>
-        <button @click="appMultiplyAction(appTickGetter)">appMultiplyAction</button>
+        <button @click="handleMutation(tick)">handleMutation</button>
+        <button @click="handleAction(getTick)">handleAction</button>
 
         <router-view />
 
@@ -25,11 +25,17 @@ export default {
         Card
     },
     methods: {
-        ...mapMutations([ MutationTypes.APP_Multiply_MUTATION ]),
-        ...mapActions([ ActionTypes.APP_MULTIPLY_ACTION ])
+        ...mapMutations({
+            handleMutation : MutationTypes.APP_MULTIPLY
+        }),
+        ...mapActions({ 
+            handleAction : ActionTypes.APP_MULTIPLY
+        })
     },
     computed: {
-        ...mapGetters([ GetterTypes.APP_TICK_GETTER ]),
+        ...mapGetters({
+            getTick : GetterTypes.APP_GET_TICK
+        }),
         ...mapState({
             tick : ({ app }) => app.tick
         })
