@@ -1,5 +1,5 @@
 import { GetterTypes } from '../../constants'
 
 export default {
-    [GetterTypes.APP_TICK_GETTER] : ({ app }) => app.tick
+    [GetterTypes.APP_GET_TICK] : ({ app }) => app.tick
 }
