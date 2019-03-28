@@ -1,4 +1,4 @@
-import Request from '../providers/api'
+import Request from '@/providers/api'
 
 describe('API Tests', () => {
 
