@@ -5,8 +5,8 @@
         <h5>mapState - tick : {{ tick }}</h5>
         <h5>mapGetters - getTick : {{ getTick }}</h5>
 
-        <button @click="handleMutation(tick)">handleMutation</button>
-        <button @click="handleAction(getTick)">handleAction</button>
+        <button @click="handleMutation(2)">handleMutation</button>
+        <button @click="handleAction(2)">handleAction</button>
 
         <router-view />
 
