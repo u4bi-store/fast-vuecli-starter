@@ -17,7 +17,8 @@ fast-vuecli-starter/
 ├── src/
 │   ├── __tests__/
 │   │   ├── api.test.js 
-│   │   └── card.test.js
+│   │   ├── card.test.js 
+│   │   └── store.test.js
 │   │
 │   ├── components/
 │   │   └── Card.vue
