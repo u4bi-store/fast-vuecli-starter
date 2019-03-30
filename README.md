@@ -86,6 +86,7 @@ fast-vuecli-starter/
 - [axios](https://github.com/axios/axios)
 - [jest](https://github.com/facebook/jest)
 - [vue-test-utils](https://github.com/vuejs/vue-test-utils)
+- [serve](https://github.com/zeit/serve)
 
 ## License
 [MIT](LICENSE)
